@@ -1,13 +1,8 @@
 .logo {
 	width: 100px;
 	height: 120px;
-	background-color: rgba(0,0,0,0.1);
-
-	/*position: absolute;*/
-	/*left: 50%;*/
 	top: 1vw;
 	left: 1vw;
-	/*transform: translate( -50%, 0 );*/
 	transition: all 2s;
 	position: absolute;
 	overflow: hidden;
@@ -49,27 +44,3 @@
 		left: 0
 	}
 }
-
-/*
-.logo :nth-child(1){
-	width: 100%;
-	height: 100%;
-	background-color: blue;
-}
-.logo:hover :nth-child(1) {
-	width: 300%;
-	height: 80%;
-	border-radius: 50%;
-	border-left: 10px solid;
-	position: absolute;
-	transition: 2s;
-	top: 10%;
-	left: 5%;
-	padding-left: 10px;
-	background-color: blue;
-}
-
-.logo:hover {
-	transform: rotate(10deg);
-}
-*/

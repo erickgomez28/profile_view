@@ -14,7 +14,7 @@ header {
 	position: relative;
 }
 
-header .content {
+header .container {
 	width: 25%;
 	min-width: 200px;
 	height: 84%;
@@ -38,9 +38,9 @@ header .screen video {
 	height: 100%;
 }
 
-header .content .person {
+header .container .person {
 	position: absolute;
-	font-size: 2vw;
+	font-size: 2.5vmax;
 	font-weight: bold;
 	color: 	white;
 	border-bottom: 5px solid;
@@ -50,18 +50,22 @@ header .content .person {
 	letter-spacing: nowrap;
 } 
 
-header .content .person .square {
-	position: absolute;
+header .container .person .square {
 
-	width: 60%;
-	height: 250px;
+	width: 50%;
+	height: 750%;
+	min-height: 100px;
 	
 	display: inline-block;
-	text-align: left;
+	text-align: right;
+}
 
-	top: -230px;
-	right: 0px;
-	background-color: rgba(0,0,0,0.4);
+header .container .person .square img {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	text-align: center;
+
 }
 
 footer{
@@ -72,7 +76,7 @@ footer{
 	display: inline-block;
 }
 
-footer div	 {
+footer div	 {	
 	font-size: 30px;
 	text-transform: uppercase;
 	text-align: center;
@@ -119,7 +123,7 @@ footer ul li span {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	transition: all 2s;
+	transition: all 1s .5s;
 	opacity: 0;
 }
 
@@ -127,5 +131,5 @@ footer ul li img {
 	width: 100%;
 	height: 100%;
 	padding: 6%;
-	transition: all 2s 1s;
+	transition: all 1s .5s;
 }
